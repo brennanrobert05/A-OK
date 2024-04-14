@@ -1,3 +1,4 @@
+//Allows user to register
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'login_page.dart';
@@ -11,10 +12,9 @@ class LoginOrRegisterPage extends StatefulWidget {
 }
 
 class _LoginOrRegisterPageState extends State<LoginOrRegisterPage> {
-  // initially show login page
+
   bool showLoginPage = true;
 
-  // toggle between login + register page
   void togglePages() {
     setState(() {
       showLoginPage = !showLoginPage;
