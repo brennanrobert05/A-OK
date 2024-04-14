@@ -1,3 +1,4 @@
+// First screen the user sees when opening the app.
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:a/components/my_button.dart';
@@ -18,9 +19,9 @@ class _LoginPageState extends State<LoginPage> {
   final emailController = TextEditingController();
   final passwordController = TextEditingController();
 
-  // sign user in method
+  // sign user in 
   void signUserIn() async {
-    // show loading circle
+    // loading circle
     showDialog(
       context: context,
       builder: (context) {
