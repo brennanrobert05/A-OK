@@ -13,6 +13,7 @@ class CiaraFergusonPage extends StatelessWidget {
         ),
         iconTheme: IconThemeData(color: Colors.white), 
       ),
+      //top profile picture
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -32,7 +33,7 @@ class CiaraFergusonPage extends StatelessWidget {
               ],
             ),
             SizedBox(height: 16),
-            // Skills section
+            // Details
             Container(
               padding: EdgeInsets.all(16),
               color: Colors.blueGrey.shade100,
