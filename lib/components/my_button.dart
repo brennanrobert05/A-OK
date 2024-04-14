@@ -1,3 +1,4 @@
+// Used for the buttons on the login page
 import 'package:flutter/material.dart';
 
 class MyButton extends StatelessWidget {
