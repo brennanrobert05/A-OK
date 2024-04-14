@@ -1,3 +1,4 @@
+// Profile page example for one student showing name, picture and possible pictures for a student
 import 'package:flutter/material.dart';
 
 class CiaraFergusonPage extends StatelessWidget {
@@ -10,7 +11,7 @@ class CiaraFergusonPage extends StatelessWidget {
           'Ciara Ferguson',
           style: TextStyle(color: Colors.white),
         ),
-        iconTheme: IconThemeData(color: Colors.white), // Set icon color to white
+        iconTheme: IconThemeData(color: Colors.white), 
       ),
       body: SingleChildScrollView(
         child: Column(
