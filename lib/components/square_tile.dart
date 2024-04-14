@@ -1,3 +1,4 @@
+//Smaller buttons at the bottom of the login page for 
 import 'package:flutter/material.dart';
 
 class SquareTile extends StatelessWidget {
