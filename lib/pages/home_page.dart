@@ -1,3 +1,4 @@
+//Home screen which the class teacher sees after loging which shows list of students they might have
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'ciara_ferguson.dart';
@@ -12,6 +13,7 @@ class HomePage extends StatelessWidget {
     FirebaseAuth.instance.signOut();
   }
 
+  // A-OK Logo
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -29,6 +31,7 @@ class HomePage extends StatelessWidget {
             ),
           ),
         ),
+     //log out button
         actions: [
           IconButton(
             onPressed: () {
@@ -41,6 +44,7 @@ class HomePage extends StatelessWidget {
           )
         ],
       ),
+      // list of students - design idea came from icloud profile in the settings app on Iphone. NOTE-PICTURES ARE AI GENERATED AND NOT REAL PEOPLE
       body: ListView(
         shrinkWrap: true,
         children: [
